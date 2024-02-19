@@ -118,7 +118,7 @@
         </section>
 
       <!-- part tow -->
-        <section class="md:mt-32 mt-20  ">
+        <section class="md:mt-32 mt-20 md:mb-32 mb-20">
             <div class="w-full text-center">
                 <h1 class="text-5xl font-bold text-black ">Best offers for you</h1>
 
@@ -126,7 +126,7 @@
                 <div class="md:flex  md:gap-5 md:space-y-0 space-y-4  md:justify-center md:mt-12  mt-8 ml-6 mr-6" >
 
                     <!-- cart 1 -->
-                    <div class="cart bg-[#FFBF0F] md:w-[573px]  flex justify-between  rounded-3xl px-8">
+                    <div class="cart bg-[#FFBF0F] md:w-[573px]   flex justify-between  rounded-3xl px-8">
                         <!-- part 1 -->
                         <div class="flex flex-col justify-center items-start ">
                             <h1 class="font-extrabold text-3xl ">15% OFF</h1>
@@ -173,7 +173,7 @@
                 </div>
 
                 <div>
-                    <button class="border-[#1DD100] border-2 p-4 mt-12 rounded-md font-bold text-[#1DD100] mb-6">See All Offers</button>
+                    <button class="border-[#1DD100] border-2 p-4 mt-12 rounded-md font-bold text-[#1DD100]">See All Offers</button>
                 </div>
 
                 
@@ -209,7 +209,7 @@
                 </div>
   
                 <div class="md:pt-6 pt-4 md:pr-12 pr-4">
-                  <button class="btn bg-[#ddf8d9] text-[#1DD100]"> <span><img src="images/seat-green.png" alt=""></span> 40 Seats left</button>
+                  <button class="btn bg-[#ddf8d9] text-[#1DD100]"> <span><img src="images/seat-green.png" alt=""></span> <span id="seatAvilable">8</span>Seats left</button>
                 </div>
               </div>
 
@@ -228,7 +228,7 @@
                 </div>
                 <hr class="border-[#9c9da2] border-dashed w-full h-5 mt-4 mb-0" ></hr>
 
-                <div class="md:flex md:justify-center md:gap-6 space-y-6">
+                <div class="md:flex md:justify-center md:gap-6 md:space-y-0 space-y-6">
                   <div class="bg-[#eaebec] rounded-2xl">
                     <h4 class="text-xl  p-4 ">Boarding Point - Laxmipur</h4>
                   </div>
@@ -267,7 +267,7 @@
           <div class="md:flex bg-white p-10 justify-center rounded-3xl mt-12 shadow-xl">
 
             <!-- part 1 -->
-            <div class="">
+            <div class="flex-1">
               <h1 class="text-2xl mt-6 mb-6">Select Your Seat</h1>
               <hr class="border-dashed border-2">
 
@@ -293,20 +293,20 @@
                 </div>
               </div>
 
-              <div class="md:flex">
+              <div class="md:flex md:flex-reverse">
 
                 <!-- part 1 -->
                 <div>
                   <div class="flex text-center items-center gap-4">
-                    <h2 class="text-xl mr-6">A</h2>
-                    <button onclick="click" id="seatBtn1" class="btn seatBtn pl-8 pr-8">A1</button>
-                    <button onclick="click" id="seatBtn2" class="btn seatBtn pl-8 pr-8">A2</button>
+                    <h2 class="text-2xl mr-6 ">A</h2>
+                    <button onclick="click" id="seatBtn1" class="btn seatBtn pl-8 pr-8 w-32 text-2xl text-gray-500">A1</button>
+                    <button onclick="click" id="seatBtn2" class="btn seatBtn pl-8 pr-8 w-32 text-2xl text-gray-500">A2</button>
                   </div>
 
                   <div class="flex text-center items-center gap-4 mt-6">
-                    <h2 class="text-xl mr-6">A</h2>
-                    <button onclick="click" id="seatBtn3" class="btn seatBtn pl-8 pr-8">B1</button>
-                    <button onclick="click" id="seatBtn4" class="btn seatBtn pl-8 pr-8">B2</button>
+                    <h2 class="text-2xl mr-6">B</h2>
+                    <button onclick="click" id="seatBtn3" class="btn seatBtn pl-8 pr-8 w-32 text-2xl text-gray-500">B1</button>
+                    <button onclick="click" id="seatBtn4" class="btn seatBtn pl-8 pr-8 w-32 text-2xl text-gray-500">B2</button>
                   </div>
 
              
@@ -315,13 +315,13 @@
                 <!-- part 2 -->
                 <div class="md:ml-20 ml-14 md:mt-0 mt-6 mb-6">
                   <div class="flex text-center items-center gap-4">
-                    <button onclick="click" id="A3 bookButton" class="btn pl-8 pr-8">A3</button>
-                    <Button id="A4" class="btn pl-8 pr-8">A4</Button>
+                    <button onclick="click" id="seatBtn5" class="btn pl-8 pr-8 w-32 text-2xl text-gray-500">A3</button>
+                    <Button id="seatBtn6" class="btn pl-8 pr-8 w-32 text-2xl text-gray-500">A4</Button>
                   </div>
 
                   <div class="flex text-center items-center gap-4 mt-6">
-                    <button onclick="click" id="B3" class="btn pl-8 pr-8">B3</button>
-                    <Button onclick="click" id="B4" class="btn pl-8 pr-8">B4</Button>
+                    <button onclick="click" id="seatBtn7" class="btn pl-8 pr-8 w-32 text-2xl text-gray-500">B3</button>
+                    <Button onclick="click" id="seatBtn8" class="btn pl-8 pr-8 w-32 text-2xl text-gray-500">B4</Button>
                   </div>
 
                 
@@ -350,18 +350,20 @@
               </div>
 
               <hr class="border-dashed border-2">
-
-              <div class="flex md:gap-20 gap-10 pl-6 pr-6 mt-2 text-[#030712B3]">  
-                <h1 class="text-xl ">C2 <span class="rounded-3xl">2</span></h1>
-                <h1 class="text-xl ">Economoy</h1>
-                <h1 class="text-xl ">550</h1>
+              <div id="seatList">
+                <!-- <div class="flex md:gap-20 gap-10 pl-6 pr-6 mt-2 text-[#030712B3]">  
+                  <h1 class="text-xl ">C2 <span class="rounded-3xl">2</span></h1>
+                  <h1 class="text-xl ">Economoy</h1>
+                  <h1 class="text-xl ">550</h1>
+                </div>
+  
+                <div class="flex md:gap-20 gap-10 pl-6 pr-6 mt-2 text-[#030712B3] ">  
+                  <h1 class="text-xl ">C2 <span class="rounded-3xl">2</span></h1>
+                  <h1 class="text-xl ">Economoy</h1>
+                  <h1 class="text-xl ">550</h1>
+                </div> -->
               </div>
-
-              <div class="flex md:gap-20 gap-10 pl-6 pr-6 mt-2 text-[#030712B3] ">  
-                <h1 class="text-xl ">C2 <span class="rounded-3xl">2</span></h1>
-                <h1 class="text-xl ">Economoy</h1>
-                <h1 class="text-xl ">550</h1>
-              </div>
+             
 
               <hr class="h-2 mt-2 pl-6 pr-6">
 
@@ -370,13 +372,13 @@
                 <h1 class="text-xl font-bold">BDT <span id="totalPrice" class="">0</span> </h1>
               </div>
 
-              <div class="copun-code bg-white flex justify-between ml-6 mr-6 mt-2 p-2 rounded-xl">
-                <input type="text" placeholder="Have any copupon?" class="border-none"> <Button class="btn bg-[#1dd100] text-white">Apply</Button>
+              <div id="coponElement" class="copun-code bg-white flex justify-between ml-6 mr-6 mt-2 p-2 rounded-xl">
+                <input id="txtCoupon" type="text" placeholder="Have any copupon?" class="border-none"> <Button id="btnApply" class="btn bg-[#1dd100] text-white">Apply</Button>
               </div>
 
               <div class="flex justify-between pl-6 pr-6 mt-6 pb-6">  
                 <h1 class="text-xl font-bold">Grand Total</h1>
-                <h1 class="text-xl font-bold">BDT 1100</h1>
+                <h1 class="text-xl font-bold">BDT <span id="grandTotal" class="">0</span></h1>
               </div>
 
               
@@ -394,7 +396,7 @@
               <h1 class="text-2xl font-bold mt-4">Email ID</h1>
               <input type="text" placeholder="Enter your email id" class="border-gray-300 border-2 rounded-xl p-6 w-full mt-4">
 
-              <button class="btn w-full bg-[#1dd100] p-4 text-white mt-6">Next</button>
+              <button onclick="click" id="nextBtn" class="btn w-full bg-[#1dd100] p-4 text-white mt-6">Next</button>
             
           
               <div class=" flex justify-between mt-2 text-gray-500">
@@ -418,6 +420,23 @@
 
         </section>
     </main>
+
+    <section class="border-2"> <!-- popup cart -->
+      <div onclick="click()" id="modale" class=" modale w-[718px] h-[481px] shadow-xl  hidden  rounded-md bg-white fixed top-52 bottom-0 left-96   z-10 flex items-center justify-center" >
+       <div class="modal-innar p-16 text-center space-y-1">
+         <div class=" modal-inner flex justify-center mb-4">
+           <img src="images/success.png" alt="">
+         </div>
+ 
+       <h1 class="text-3xl font-bold">SUCCESS</h1>
+       <h4 class="text-xl">Thank you for Booking Our Bus Seats. 
+         We are working hard to find the best service and deals for you.</h4>
+       <p> Shortly you will find a confirmation in your email.</p>
+ 
+       <button onclick="click()" id="cotinueBtn" class="btn bg-[#1dd100] text-white">Continue</button>
+     </div>
+   </div></section>
+   
 
     <section class="md:px-32 text-gray-200 px-4 max-w-7x  bg-black  pt-6">
       <footer class="footer px-10 py-4  text-base-content border-base-300">
@@ -448,8 +467,10 @@
         </div>
       </footer>
     </section>
-    
-    
+
+  
+  
+
     
     <script src="script/bettel-war.js"></script>
     <script src="script/utility.js"></script>
