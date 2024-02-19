@@ -118,15 +118,15 @@
         </section>
 
       <!-- part tow -->
-        <section class="md:mt-32 mt-20 md:mb-32 mb-20">
+        <section class="md:mt-32 mt-20  ">
             <div class="w-full text-center">
                 <h1 class="text-5xl font-bold text-black ">Best offers for you</h1>
 
                 
-                <div class="md:flex  md:gap-5 space-y-4  md:justify-center md:mt-12  mt-8 ml-6 mr-6" >
+                <div class="md:flex  md:gap-5 md:space-y-0 space-y-4  md:justify-center md:mt-12  mt-8 ml-6 mr-6" >
 
                     <!-- cart 1 -->
-                    <div class="cart bg-[#FFBF0F] md:w-[573px]   flex justify-between  rounded-3xl px-8">
+                    <div class="cart bg-[#FFBF0F] md:w-[573px]  flex justify-between  rounded-3xl px-8">
                         <!-- part 1 -->
                         <div class="flex flex-col justify-center items-start ">
                             <h1 class="font-extrabold text-3xl ">15% OFF</h1>
@@ -173,7 +173,7 @@
                 </div>
 
                 <div>
-                    <button class="border-[#1DD100] border-2 p-4 mt-12 rounded-md font-bold text-[#1DD100]">See All Offers</button>
+                    <button class="border-[#1DD100] border-2 p-4 mt-12 rounded-md font-bold text-[#1DD100] mb-6">See All Offers</button>
                 </div>
 
                 
@@ -184,7 +184,7 @@
         </section>
 
         <!-- part three -->
-        <section class="md:px-32 px-4 max-w-7x bg-[#F7F8F8] pb-32 mb-32 ">
+        <section class="md:px-32 px-4 max-w-7x bg-[#F7F8F8] pb-32  ">
          <!-- 1 -->
           <div class="text-center space-y-5 pt-32">
             <h1 class="text-5xl font-bold text-black">P.H Paribahan</h1>
@@ -299,104 +299,32 @@
                 <div>
                   <div class="flex text-center items-center gap-4">
                     <h2 class="text-xl mr-6">A</h2>
-                    <button class="btn pl-8 pr-8">A1</button>
-                    <Button class="btn pl-8 pr-8">A2</Button>
+                    <button onclick="click" id="seatBtn1" class="btn seatBtn pl-8 pr-8">A1</button>
+                    <button onclick="click" id="seatBtn2" class="btn seatBtn pl-8 pr-8">A2</button>
                   </div>
 
                   <div class="flex text-center items-center gap-4 mt-6">
                     <h2 class="text-xl mr-6">A</h2>
-                    <button class="btn pl-8 pr-8">A1</button>
-                    <Button class="btn pl-8 pr-8">A2</Button>
+                    <button onclick="click" id="seatBtn3" class="btn seatBtn pl-8 pr-8">B1</button>
+                    <button onclick="click" id="seatBtn4" class="btn seatBtn pl-8 pr-8">B2</button>
                   </div>
 
-                  <div class="flex text-center items-center gap-4 mt-6">
-                    <h2 class="text-xl mr-6">A</h2>
-                    <button class="btn pl-8 pr-8">A1</button>
-                    <Button class="btn pl-8 pr-8">A2</Button>
-                  </div>
-
-                  <div class="flex text-center items-center gap-4 mt-6">
-                    <h2 class="text-xl mr-6">A</h2>
-                    <button class="btn pl-8 pr-8">A1</button>
-                    <Button class="btn pl-8 pr-8">A2</Button>
-                  </div>
-
-                  
-                  <div class="flex text-center items-center gap-4 mt-6">
-                    <h2 class="text-xl mr-6">A</h2>
-                    <button class="btn pl-8 pr-8">A1</button>
-                    <Button class="btn pl-8 pr-8">A2</Button>
-                  </div>
-
-                  <div class="flex text-center items-center gap-4 mt-6">
-                    <h2 class="text-xl mr-6">A</h2>
-                    <button class="btn pl-8 pr-8">A1</button>
-                    <Button class="btn pl-8 pr-8">A2</Button>
-                  </div>
-
-                  <div class="flex text-center items-center gap-4 mt-6">
-                    <h2 class="text-xl mr-6">A</h2>
-                    <button class="btn pl-8 pr-8">A1</button>
-                    <Button class="btn pl-8 pr-8">A2</Button>
-                  </div>
-                  <div class="flex text-center items-center gap-4 mt-6">
-                    <h2 class="text-xl mr-6">A</h2>
-                    <button class="btn pl-8 pr-8">A1</button>
-                    <Button class="btn pl-8 pr-8">A2</Button>
-                  </div>
-                  <div class="flex text-center items-center gap-4 mt-6">
-                    <h2 class="text-xl mr-6">A</h2>
-                    <button class="btn pl-8 pr-8">A1</button>
-                    <Button class="btn pl-8 pr-8">A2</Button>
-                  </div>
+             
                 </div>
 
                 <!-- part 2 -->
-                <div class="md:ml-20 ml-14 mt-6 mb-6">
+                <div class="md:ml-20 ml-14 md:mt-0 mt-6 mb-6">
                   <div class="flex text-center items-center gap-4">
-                    <button class="btn pl-8 pr-8">A3</button>
-                    <Button class="btn pl-8 pr-8">A4</Button>
+                    <button onclick="click" id="A3 bookButton" class="btn pl-8 pr-8">A3</button>
+                    <Button id="A4" class="btn pl-8 pr-8">A4</Button>
                   </div>
 
                   <div class="flex text-center items-center gap-4 mt-6">
-                    <button class="btn pl-8 pr-8">B3</button>
-                    <Button class="btn pl-8 pr-8">B4</Button>
+                    <button onclick="click" id="B3" class="btn pl-8 pr-8">B3</button>
+                    <Button onclick="click" id="B4" class="btn pl-8 pr-8">B4</Button>
                   </div>
 
-                  <div class="flex text-center items-center gap-4 mt-6">
-                    <button class="btn pl-8 pr-8">B3</button>
-                    <Button class="btn pl-8 pr-8">B4</Button>
-                  </div>
-
-                  <div class="flex text-center items-center gap-4 mt-6">
-                    <button class="btn pl-8 pr-8">B3</button>
-                    <Button class="btn pl-8 pr-8">B4</Button>
-                  </div>
-
-                  <div class="flex text-center items-center gap-4 mt-6">
-                    <button class="btn pl-8 pr-8">B3</button>
-                    <Button class="btn pl-8 pr-8">B4</Button>
-                  </div>
-
-                  <div class="flex text-center items-center gap-4 mt-6">
-                    <button class="btn pl-8 pr-8">B3</button>
-                    <Button class="btn pl-8 pr-8">B4</Button>
-                  </div>
-
-                  <div class="flex text-center items-center gap-4 mt-6">
-                    <button class="btn pl-8 pr-8">B3</button>
-                    <Button class="btn pl-8 pr-8">B4</Button>
-                  </div>
-
-                  <div class="flex text-center items-center gap-4 mt-6">
-                    <button class="btn pl-8 pr-8">B3</button>
-                    <Button class="btn pl-8 pr-8">B4</Button>
-                  </div>
-
-                  <div class="flex text-center items-center gap-4 mt-6">
-                    <button class="btn pl-8 pr-8">B3</button>
-                    <Button class="btn pl-8 pr-8">B4</Button>
-                  </div>
+                
                 </div>
               </div>
           </div>
@@ -416,7 +344,7 @@
   
             <div class="cart md:flex md:flex-col bg-[#f2f2f2] mt-6 rounded-3xl">
               <div class="flex md:gap-20 gap-10 p-6 ">  
-                <h1 class="text-xl font-bold">Seat <span class="rounded-3xl">2</span></h1>
+                <h1 class="text-xl font-bold">Seat <span id="seatCounter" class="rounded-xl bg-[#1DD100] pl-2  pr-2 text-center text-white">0</span></h1>
                 <h1 class="text-xl font-bold">Class</h1>
                 <h1 class="text-xl font-bold">Price</h1>
               </div>
@@ -439,7 +367,7 @@
 
               <div class="flex justify-between pl-6 pr-6 ">  
                 <h1 class="text-xl font-bold">Total Price</h1>
-                <h1 class="text-xl font-bold">BDT 1100</h1>
+                <h1 class="text-xl font-bold">BDT <span id="totalPrice" class="">0</span> </h1>
               </div>
 
               <div class="copun-code bg-white flex justify-between ml-6 mr-6 mt-2 p-2 rounded-xl">
@@ -491,11 +419,39 @@
         </section>
     </main>
 
-    <footer>
+    <section class="md:px-32 text-gray-200 px-4 max-w-7x  bg-black  pt-6">
+      <footer class="footer px-10 py-4  text-base-content border-base-300">
+        <div class="text-gray-200">
+          <h1 class="text-3xl font-bold">P-Ticket</h1>
+          <p>P-Ticket is a digital platform to make your <br> daily commuting better.</p>
+        </div>
+        <nav class="md:place-self-center md:justify-self-end">
+          <div class="flex flex-col gap-3">
+           <h3  class="text-gray-200">Download our app</h3>
+           <img src="images/play-store.png" alt="">
+          </div>
+        </nav>
 
-    </footer>
+        
+      </footer>
+      <hr class="border-white  border-dashed mt-4 mb-4 p-2">
 
+      <footer class="text-gray-200 flex justify-between">
+        <div>
+          <p>@all rights reserved, P-Ticket services limited.2024</p>
+        </div>
+
+        <div class="flex gap-12">
+          <h1>Terms & condition</h1>
+          <h1>Return & refund policy</h1>
+          <h1>Privacy policy</h1>
+        </div>
+      </footer>
+    </section>
     
-    <script src="script/script.js"></script>
+    
+    
+    <script src="script/bettel-war.js"></script>
+    <script src="script/utility.js"></script>
 </body>
 </html>
